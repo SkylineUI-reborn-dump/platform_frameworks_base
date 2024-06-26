@@ -12854,13 +12854,6 @@ public final class Settings {
         public static final String EXTRA_AUTOMATIC_POWER_SAVE_MODE =
                 "extra_automatic_power_save_mode";
 
-	/**
-         * Control whether FLAG_SECURE is ignored for all windows.
-         * @hide
-         */
-        @Readable
-        public static final String WINDOW_IGNORE_SECURE = "window_ignore_secure";
-
         /**
          * Whether contextual screen timeout is enabled.
          *
@@ -19507,6 +19500,13 @@ public final class Settings {
          * @hide
          */
         public static final String PM_DOWNGRADE_ALLOWED = "pm_downgrade_allowed";
+
+	/**
+         * Control whether FLAG_SECURE is ignored for all windows.
+         * @hide
+         */
+        @Readable
+        public static final String WINDOW_IGNORE_SECURE = "window_ignore_secure";
 
         /**
          * Setting indicating whether Low Power Standby is enabled, if supported.
