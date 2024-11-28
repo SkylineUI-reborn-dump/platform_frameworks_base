@@ -108,8 +108,7 @@ public class ScreenMediaRecorder extends MediaProjection.Callback {
         mCaptureRegion = captureRegion;
         mListener = listener;
         mAudioSource = audioSource;
-        mMaxRefreshRate = mContext.getResources().getInteger(
-                R.integer.config_screenRecorderMaxFramerate);
+        mMaxRefreshRate = 0;
     }
 
     private void prepare() throws IOException, RemoteException, RuntimeException {
